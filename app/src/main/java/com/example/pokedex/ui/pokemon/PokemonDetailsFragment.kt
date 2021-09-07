@@ -14,7 +14,7 @@ import com.example.pokedex.databinding.PokemonDetailsFragmentBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class pokemon_details : Fragment() {
+class PokemonDetailsFragment : Fragment() {
 
     lateinit var binding: PokemonDetailsFragmentBinding
     private val viewModel: PokemonDetailsViewModel by viewModels()

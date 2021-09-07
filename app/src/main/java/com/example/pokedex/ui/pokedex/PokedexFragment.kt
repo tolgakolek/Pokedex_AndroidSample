@@ -57,7 +57,7 @@ class PokedexFragment : Fragment(), PokedexAdapter.PokemonItemListener  {
     }
     override fun onClickedPokemon(characterId: String) {
         findNavController().navigate(
-            R.id.action_pokedexFragment_to_pokemon_details,
+            R.id.action_pokedexFragment_to_pokemonDetailsFragment,
             bundleOf("id" to characterId)
         )
     }
